@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1496185106368-308ed96f204b?dpr=1&auto=compress,format&fit=crop&w=767&h=483&q=80&cs=tinysrgb&crop=&bg="); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   font-family: 'Slabo 27px', serif;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.containt{
+    padding-top: 10%;
+    font-size: 22px;
+}
+.days, .hours, .minutes, .sec{
+    display: inline;
+    padding: 5px;
+}
+.time{
+    padding-bottom: 10px;
+}
+.time-c{
+    padding: 10px 0;
+}
+.time span, .sec span{
+    color: red;
+}
+input{
+    padding:  10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+button{
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: black;
+    color:gray;
+    border: none;
+    cursor: pointer;
+}
